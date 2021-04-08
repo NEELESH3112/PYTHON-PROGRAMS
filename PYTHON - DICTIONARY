@@ -1,0 +1,48 @@
+#DICTIONARY 
+
+# remove dictionary 
+
+dict = {
+
+    "Name": "Neelesh",
+    "Age" : "18",
+    "Role": "Student",
+    "Year": "2020-2023",
+    "Department":"Artifical Intelligence and Data Science (AD)"
+}
+dict.pop("Age")
+
+print(dict)
+
+#change dictionary
+dict = {
+    "Name": "Neelesh",
+    "Age" : "18",
+    "Role": "Student",
+    "Year": "2020-2023"
+    
+    }
+dict["Year"]= "2020-2024"
+print(dict)
+
+#add dictionary
+dict = {
+    "Name": "Neelesh",
+    "Age" : "18",
+    "Role": "Student",
+    "Year": "2020-2023"
+
+ } 
+dict["Department"]="Artifical Intelligence and Data Science (AD)"
+print(dict)
+
+#delete dictionary
+dict = {
+    "Name": "Neelesh",
+    "Age" : "18",
+    "Role": "Student",
+    "Year": "2020-2023",
+    "Department":"Artifical Intelligence and Data Science (AD)"
+    }
+del dict["Year"]
+print(dict)

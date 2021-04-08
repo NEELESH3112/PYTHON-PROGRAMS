@@ -1,0 +1,26 @@
+#list 12
+
+List = ["Apples", 4, "Oranges", 7, "Mango", 11, "Watermelon", 1, "Dragon Fruit", 5, "Berries", 10]
+
+#creating list
+print("Created List : ", List)
+
+#slincing list
+print("List Slicing : ", List[1 : 8])
+
+#change list
+List[3] = 5 
+print("Change in the List : ", List)
+
+#append list
+List.append("Grapes") 
+List.append(12) 
+print("Elements added in the List : ", List)
+
+#delete list
+del List[8] 
+del List[8] 
+print("Elements deleted in the List : ", List)
+
+#indexing list
+print("List Indexing : ", List[8])

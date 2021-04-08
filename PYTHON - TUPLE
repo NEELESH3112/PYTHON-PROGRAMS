@@ -1,0 +1,20 @@
+#Tuple 11
+
+tuple=("English","Python","Chemistry","Mathematics","Python Laboratory")
+
+#creating tuple
+print("created tuple:",tuple)
+
+#tuple indexing
+print("tuple indexing:",tuple[2])
+
+#tuple negative slicing
+print("tuple negative slicing:",tuple[-1])
+
+#tuple slicing
+print("tuple slincing:",tuple[1:4])
+
+#delete tuple
+tuple=('p','r','o','g','r','a','m','m','i','n','g')
+del tuple
+print(tuple)

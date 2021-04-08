@@ -1,0 +1,9 @@
+#word count 
+
+import sys 
+
+print("Name of Scripts:",sys.argv[0])
+
+print("Number of arguments:",len(sys.argv))
+
+print("The argyuments are:",str(sys.argv))

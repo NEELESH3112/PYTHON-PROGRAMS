@@ -1,0 +1,17 @@
+# Frequent words 
+with open ('my test file1.txt','r')as f:
+   words = f.read().lower().split()
+print(words)
+
+w = []
+for word in words:
+    count = 1
+    for i in range(words.index(word)+1,len(words)):
+           if word==words[i]:
+              count+=1
+
+    w.append(count)
+
+m=max(w)
+
+print(words[w.index(m)],'word occurs frequently',m ,'times')

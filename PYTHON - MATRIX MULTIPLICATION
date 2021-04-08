@@ -1,0 +1,16 @@
+#Matrix multiplication 
+
+matrix1=[[34,446,615],[97,627,5],[36,74,85]]
+matrix2=[[144,14,41,1],[671,681,861,1],[16,186,186,1]]
+rmatrix=[[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+
+for i in range(len(matrix1)):
+        for j in range(len(matrix2[0])):
+             for k in range(len(matrix2)):
+
+                rmatrix[i][j] += matrix1[i][k] * matrix2[k][j]
+
+
+
+for r in rmatrix:
+         print(r)

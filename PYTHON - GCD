@@ -1,4 +1,4 @@
-#GCD 1
+#GCD 
 
 def gcd(a,b):
     
